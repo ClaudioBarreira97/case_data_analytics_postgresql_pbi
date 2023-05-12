@@ -1,0 +1,14 @@
+---Criando tabela rental_serving a partir das tabelas rental, payment 
+create table rental_serving as
+select 
+	r.rental_id,
+	r.inventory_id,
+	r.rental_date,
+	r.customer_id,
+	r.return_date,
+	r.staff_id,
+	p.amount,
+	p.payment_date,
+	r.last_update as last_uptade_rental
+from rental r
+	join payment p on r.rental_id = p.rental_id
