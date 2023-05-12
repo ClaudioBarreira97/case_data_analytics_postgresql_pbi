@@ -1,4 +1,4 @@
-Definindo as chaves primarias PK nas tabelas dimensão
+--- Definindo as chaves primarias PK nas tabelas dimensão
 
 -- Adicionar chave primária na tabela film_serving
 alter table film_serving
