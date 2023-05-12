@@ -1,4 +1,4 @@
-# case_blockbuster_postgresql_dbt
+# Case_blockbuster_postgresql_dbt
  **Apresentar um painel de BI e uma análise detalhada dos pontos mais relevantes de um negócio de locação de filmes.**
 
 ## Perguntas de negócio
