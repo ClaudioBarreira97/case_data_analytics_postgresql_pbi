@@ -2,15 +2,15 @@
  **Apresentar um painel de BI e uma análise detalhada dos pontos mais relevantes de um negócio de locação de filmes.**
 
 ## Objetivo da análise
- * Realizar uma análise descritiva para entender os resultados do negócio alcançados no passado para mostrar indicadores que possam nortear os rumos futuros, com objetivo de objetivo aumentar a eficiência do negócio, maximizar receita, clientes e/ou minimizar custos. 
+ * Realizar uma análise descritiva para entender os resultados do negócio alcançados no passado para mostrar indicadores que possam nortear os rumos futuros, com objetivo de aumentar a eficiência do negócio, maximizar receita, clientes e/ou minimizar custos. 
 
 ### Criando o Banco de Dados e carregando a base.
-1. instalar o [PostgreSQL](https://www.postgresql.org/download/) numa maquina local.
+1. instalei o [PostgreSQL](https://www.postgresql.org/download/) numa máquina local.
 2. Baixei data sample [DVD_rental](https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/).
 3. Carreguei o arquivo [DVD Rental Sample Database](https://www.postgresqltutorial.com/wp-content/uploads/2019/05/dvdrental.zip) para o Banco.
 
 ### ETL dos Dados.
-* Utilizando o Pgadmin 4 fiz o tratamento dos dados criando novas tabelas a partir das existentes e definindo seus relacionamentos para atender nossa nescessidade de analise.
+* Utilizando o Pgadmin 4 fiz o tratamento dos dados criando novas tabelas a partir das existentes e definindo seus relacionamentos para atender nossa necessidade de análise.
   - [Create_table_customer_serving.sql](https://github.com/ClaudioBarreira97/case_blockbuster_postgresql_dbt/blob/main/Create_table_customer_serving.sql)
   - [Create_table_film_serving.sql](https://github.com/ClaudioBarreira97/case_blockbuster_postgresql_dbt/blob/main/Create_table_film_serving.sql)
   - [Create_table_rental_serving.sql](https://github.com/ClaudioBarreira97/case_blockbuster_postgresql_dbt/blob/main/Create_table_rental_serving)
@@ -21,7 +21,7 @@
   ![Data model após ETL](https://github.com/ClaudioBarreira97/case_data_analytics_postgresql_pbi/blob/main/Modelo_de_dados_apos_ETL.png)
 
 ### Conectando o BD ao Power BI
-- Apos concluir o etl, conectados nossa fonte de dados (BD_postgre) ao Power BI para começar a elaboração dos relatórios
+- Após concluir o etl, conectamos nossa fonte de dados (BD_postgre) ao Power BI para começar a elaboração dos relatórios.
 
 ### Análise dos dados atraves do Power BI
 1. Análise dos principais kpi's 
@@ -36,8 +36,8 @@
 ![Análise da receita](https://github.com/ClaudioBarreira97/case_data_analytics_postgresql_pbi/blob/main/dvdrental_painel_5_pbix.png)
 
 ### Conclusão final
- - Podemos retirar insigths sobre o negocio que nos trazem uma visão clara dos resultados por periodo, seja em meses, dias ou anos, quais são os principais clientes, quais categorias de filmes mais trazem retorno para o negocio, e uma analise completa por Países trazendo aonde estão os melhores clientes, quais paises utilizam mais do serviço e categoria por país; Trazendo assim um direcionamento para as Equipes de Marketing, para direcionamento das campanhas, e Comercial, entendendo aonde estão em quem são os melhores clientes, quais categorias e regiões que mais vendemos o serviço.
-- **O principal insigth** e que o custo de reposição dos itens e menor que o lucro, tornando assim o negocio sem rentabilidade ao longo do tempo se continuar com o modelo atual de locação.
+ - A análise dos resultados por período, como meses, dias ou anos, nos permite obter insights claros sobre o desempenho do negócio ao longo do tempo. Podemos identificar os principais clientes, as categorias de filmes que geram maior retorno e realizar uma análise abrangente por países para entender onde estão os melhores clientes, quais países possuem maior utilização do serviço e qual é a categoria mais popular em cada país. Esses insights fornecem um direcionamento estratégico para as equipes de Marketing e Comercial, permitindo que eles tomem decisões informadas sobre o direcionamento das campanhas e a identificação dos melhores clientes, categorias e regiões de vendas.
+- **O principal insigth** é que o custo de reposição dos itens é menor que o lucro, tornando assim o negócio sem rentabilidade ao longo do tempo se continuar com o modelo atual de locação.
 
 ### Downloads
 - [Relatorio em Power BI](https://github.com/ClaudioBarreira97/case_data_analytics_postgresql_pbi/blob/main/case_dvdrental.pbix)
