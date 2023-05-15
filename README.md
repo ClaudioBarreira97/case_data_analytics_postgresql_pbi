@@ -18,6 +18,16 @@
   - [Definindo_FK_tabela_fato.sql](https://github.com/ClaudioBarreira97/case_blockbuster_postgresql_dbt/blob/main/Definindo_FK_tabela_fato.sql)
   - [Definindo_PK_tabels_dimensao.sql](https://github.com/ClaudioBarreira97/case_blockbuster_postgresql_dbt/blob/main/Definindo_PK_tabelas_dimens%C3%A3o.sql)
  - [Data model antes do ELT](https://github.com/ClaudioBarreira97/case_data_analytics_postgresql_pbi/blob/main/printable-postgresql-sample-database-diagram.pdf)
- - [Data model após ETL]()
+ - [Data model após ETL](https://github.com/ClaudioBarreira97/case_data_analytics_postgresql_pbi/blob/main/Modelo_de_dados_apos_ETL.png)
+
 ### Conectando o BD ao Power BI
 - Apos concluir o etl, conectados nossa fonte de dados (BD_postgre) ao Power BI para começar a elaboração dos relatórios
+
+### Análise dos dados atraves do Power BI
+1. [Análise dos principais kpi's](https://github.com/ClaudioBarreira97/case_data_analytics_postgresql_pbi/blob/main/dvdrental_painel_1_pbix.png)
+2. [Análise dos clientes](https://github.com/ClaudioBarreira97/case_data_analytics_postgresql_pbi/blob/main/dvdrental_painel_2_pbix.png)
+3. [Análise dos resultados por País](https://github.com/ClaudioBarreira97/case_data_analytics_postgresql_pbi/blob/main/dvdrental_painel_3_pbix.png)
+4. [Árvore de análises](https://github.com/ClaudioBarreira97/case_data_analytics_postgresql_pbi/blob/main/dvdrental_painel_4_pbix.png)
+
+### Conclusão final
+- *Podemos retirar insigths sobre o negocio que nos trazem uma visão clara dos resultados por periodo, seja em meses, dias ou anos, quais são os principais clientes, quais categorias de filmes mais trazem retorno para o negocio, e uma analise completa por Países trazendo aonde estão os melhores clientes, quais paises utilizam mais do serviço e categoria por país; Trazendo assim um direcionamento para as Equipes de Marketing, para direcionamento das campanhas, e Comercial, entendendo aonde estão em quem são os melhores clientes, quais categorias e regiões que mais vendemos o serviço.
