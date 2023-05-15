@@ -30,8 +30,11 @@
 ![Análise dos clientes](https://github.com/ClaudioBarreira97/case_data_analytics_postgresql_pbi/blob/main/dvdrental_painel_2_pbix.png)
 3. Análise dos resultados por País
 ![Análise dos resultados por País](https://github.com/ClaudioBarreira97/case_data_analytics_postgresql_pbi/blob/main/dvdrental_painel_3_pbix.png)
-4. [Árvore de análises
+4. Árvore de análises
 ![Árvore de análises](https://github.com/ClaudioBarreira97/case_data_analytics_postgresql_pbi/blob/main/dvdrental_painel_4_pbix.png)
+5. Análise da receita
+![Análise da receita](https://github.com/ClaudioBarreira97/case_data_analytics_postgresql_pbi/blob/main/dvdrental_painel_5_pbix.png)
 
 ### Conclusão final
- **Podemos retirar insigths sobre o negocio que nos trazem uma visão clara dos resultados por periodo, seja em meses, dias ou anos, quais são os principais clientes, quais categorias de filmes mais trazem retorno para o negocio, e uma analise completa por Países trazendo aonde estão os melhores clientes, quais paises utilizam mais do serviço e categoria por país; Trazendo assim um direcionamento para as Equipes de Marketing, para direcionamento das campanhas, e Comercial, entendendo aonde estão em quem são os melhores clientes, quais categorias e regiões que mais vendemos o serviço.**
+ - Podemos retirar insigths sobre o negocio que nos trazem uma visão clara dos resultados por periodo, seja em meses, dias ou anos, quais são os principais clientes, quais categorias de filmes mais trazem retorno para o negocio, e uma analise completa por Países trazendo aonde estão os melhores clientes, quais paises utilizam mais do serviço e categoria por país; Trazendo assim um direcionamento para as Equipes de Marketing, para direcionamento das campanhas, e Comercial, entendendo aonde estão em quem são os melhores clientes, quais categorias e regiões que mais vendemos o serviço.
+- **O principal insigth** e que o custo de reposição dos itens e menor que o lucro, tornando assim o negocio sem rentabilidade ao longo do tempo se continuar com o modelo atual de locação
