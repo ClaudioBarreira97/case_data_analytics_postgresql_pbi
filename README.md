@@ -37,4 +37,10 @@
 
 ### Conclusão final
  - Podemos retirar insigths sobre o negocio que nos trazem uma visão clara dos resultados por periodo, seja em meses, dias ou anos, quais são os principais clientes, quais categorias de filmes mais trazem retorno para o negocio, e uma analise completa por Países trazendo aonde estão os melhores clientes, quais paises utilizam mais do serviço e categoria por país; Trazendo assim um direcionamento para as Equipes de Marketing, para direcionamento das campanhas, e Comercial, entendendo aonde estão em quem são os melhores clientes, quais categorias e regiões que mais vendemos o serviço.
-- **O principal insigth** e que o custo de reposição dos itens e menor que o lucro, tornando assim o negocio sem rentabilidade ao longo do tempo se continuar com o modelo atual de locação
+- **O principal insigth** e que o custo de reposição dos itens e menor que o lucro, tornando assim o negocio sem rentabilidade ao longo do tempo se continuar com o modelo atual de locação.
+
+### Downloads
+- [Relatorio em Power BI](https://github.com/ClaudioBarreira97/case_data_analytics_postgresql_pbi/blob/main/case_dvdrental.pbix)
+- [PostreSQL](https://www.postgresql.org/download/)
+- [DVD Rental data model postgre](https://www.postgresqltutorial.com/postgresql-getting-started/postgresql-sample-database/)
+- [ETL em SQL](https://github.com/ClaudioBarreira97/case_data_analytics_postgresql_pbi/blob/main/ETL_dvdrental_postgres.sql)
