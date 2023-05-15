@@ -17,6 +17,7 @@
   - [Create_table_staff_serving.sql](https://github.com/ClaudioBarreira97/case_blockbuster_postgresql_dbt/blob/main/Create_table_staff_serving.sql)
   - [Definindo_FK_tabela_fato.sql](https://github.com/ClaudioBarreira97/case_blockbuster_postgresql_dbt/blob/main/Definindo_FK_tabela_fato.sql)
   - [Definindo_PK_tabels_dimensao.sql](https://github.com/ClaudioBarreira97/case_blockbuster_postgresql_dbt/blob/main/Definindo_PK_tabelas_dimens%C3%A3o.sql)
- 
+ - [Data model antes do ELT](https://github.com/ClaudioBarreira97/case_data_analytics_postgresql_pbi/blob/main/printable-postgresql-sample-database-diagram.pdf)
+ - [Data model após ETL]()
 ### Conectando o BD ao Power BI
 - Apos concluir o etl, conectados nossa fonte de dados (BD_postgre) ao Power BI para começar a elaboração dos relatórios
